@@ -1,6 +1,6 @@
 Useful Python Scripts
-
-Net_utils:
+<details>
+<summary>Net_utils:</summary>
 
         ping(hostname):
             returns True if online False if offline
@@ -19,9 +19,9 @@ Net_utils:
             mode 'Offline' will create a list of offline(False) hosts only
             mode 'Any' will create a list of all host's scanned and their status
             returns a list of IP's and their status e.g.  [['10.0.0.1', True], ['10.0.0.2', False]]
-
-
-time_date_util.py:
+</details>
+<details>
+<summary>time_date_util.py:</summary>
 
         get_now:
             returns current time date as datetime
@@ -76,3 +76,4 @@ time_date_util.py:
 
         add_seconds(seconds_to_add, time as datetime (default = now)):
             returns time add seconds to add as text format 'HH:MM:SS'
+</details>
