@@ -1,6 +1,6 @@
 <h1><b>Useful Python Scripts</b></h1>
 <details>
-<summary><h2><b>Net_utils:</b></h2></summary>
+<summary><h2><b>net_utils.py:</b></h2></summary>
 
         ping(hostname):
             returns True if online False if offline
