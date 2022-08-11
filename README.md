@@ -1,18 +1,19 @@
 Useful Python Scripts
+
 Net_utils:
 
         ping(hostname):
             returns True if online False if offline
-            
+
         port_test(hostname, port(default = 80)):
             returns True if port is open and False if port is closed
-            
+
         port_scan(hostname, start, stop, mode):
             mode 'Open' will create a list of Open(True) ports only
             mode 'Closed' will create a list of Closed(False) ports only
             mode 'Any' will create a list of all ports scanned and their status
             returns a list of Ports and their status e.g.  [[21, 'Closed'], [22, 'Open']]
-            
+
         ping scan(start, stop, mode 'Online,' 'Offline', 'Any'):
             mode 'Online' will create a list of online(True) hosts only
             mode 'Offline' will create a list of offline(False) hosts only
