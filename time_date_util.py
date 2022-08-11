@@ -33,7 +33,9 @@ def get_hour(time:datetime = get_now()):
 def get_minute(time:datetime = get_now()):
     minute = time.strftime('%M')
     return minute
-
+def get_second(time:datetime = get_now()):
+    second = time.strftime('%S')
+    return second
 
 def get_weekday(date:datetime = get_now()):
     weekday = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']

@@ -11,13 +11,13 @@ Useful Python Scripts
         get_time:
         returns time as text format 'HH:MM:SS'
 
-        get_day(date(default = now)):
+        get_day(date as datetime (default = now)):
         returns day as text format 'DD'
 
-        get_month(date(default = now)):
+        get_month(date as datetime (default = now)):
         returns month as text format 'MM'
 
-        get_year(date(default = now)):
+        get_year(date as datetime (default = now)):
         returns year as text format 'YYYY'
 
         get_hour(time(default = now)):
@@ -25,30 +25,33 @@ Useful Python Scripts
 
         get_minute(time(default = now)):
         returns minute as text format 'MM'
+        
+        get_second(time(default = now)):
+        returns second as text format 'SS'
 
-        get_weekday(date(default = now)):
+        get_weekday(date as datetime (default = now)):
         returns weekday as text example 'Monday'
 
-        get_weeknum(date(default = now)):
+        get_weeknum(date as datetime (default = now)):
         returns weeknumber as int
 
-        get_month_name(date(default = now)):
+        get_month_name(date as datetime (default = now)):
         returns month as text example 'January'
 
-        add_years(years_to_add, date(default = now)):
+        add_years(years_to_add, date as datetime (default = now)):
         returns date add years to add as text format 'DD:MM:YYYY'
 
-        add_months(months_to_add, date(default = now)):
+        add_months(months_to_add, date as datetime (default = now)):
         returns  date add months to add as text format 'DD:MM:YYYY'
 
-        add_days(days_to_add, date(default = now)):
+        add_days(days_to_add, date as datetime (default = now)):
         returns date add days to add as text format 'DD:MM:YYYY'
 
-        add_hours(hours_to_add, time(default = now)):
-        returns time add hours to add as text format 'DD:MM:YYYY'
+        add_hours(hours_to_add, time as datetime (default = now)):
+        returns time add hours to add as text format 'HH:MM:SS'
 
-        add_minutes(minutes_to_add, time(default = now)):
-        returns time add minutes to add as text format 'DD:MM:YYYY'
+        add_minutes(minutes_to_add, time as datetime (default = now)):
+        returns time add minutes to add as text format 'HH:MM:SS'
 
-        add_seconds(seconds_to_add, dtimedefault = now)):
-        returns time add seconds to add as text format 'DD:MM:YYYY'
+        add_seconds(seconds_to_add, time as datetime (default = now)):
+        returns time add seconds to add as text format 'HH:MM:SS'
