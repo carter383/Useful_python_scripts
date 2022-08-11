@@ -50,6 +50,9 @@
         get_second(time(default = now)):
             returns second as text format 'SS'
 
+        get_timestamp(time(default = now)):
+            returns unix timestamp
+
         get_weekday(date as datetime (default = now)):
             returns weekday as text example 'Monday'
 

@@ -16,6 +16,10 @@ def get_time():
     return time
 
 
+def get_timestamp(time:datetime = get_now):
+    timestamp = datetime.timestamp(time)
+    return timestamp
+
 def get_day(date:datetime = get_now()):
     day = date.strftime('%d')
     return day
