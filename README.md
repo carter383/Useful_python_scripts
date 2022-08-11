@@ -1,6 +1,6 @@
-Useful Python Scripts
+<h1><b>Useful Python Scripts</b></h1>
 <details>
-<summary><b>Net_utils:</b></summary>
+<summary><h2><b>Net_utils:</b></h2></summary>
 
         ping(hostname):
             returns True if online False if offline
@@ -21,7 +21,7 @@ Useful Python Scripts
             returns a list of IP's and their status e.g.  [['10.0.0.1', True], ['10.0.0.2', False]]
 </details>
 <details>
-<summary><b>time_date_util.py:</b></summary>
+<summary><h2><b>time_date_util.py:</b></h2></summary>
 
         get_now:
             returns current time date as datetime
