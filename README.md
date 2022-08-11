@@ -62,21 +62,21 @@
         get_month_name(date as datetime (default = now)):
             returns month as text example 'January'
 
-        add_years(years_to_add, date as datetime (default = now)):
-            returns date add years to add as text format 'DD:MM:YYYY'
+        add_years(years_to_add, date as datetime (default = now))[]:
+            returns date add years to add as text format 'DD:MM:YYYY' and as datetime format to pass to other functions use [0]for text or [1] for datetime
 
-        add_months(months_to_add, date as datetime (default = now)):
-            returns  date add months to add as text format 'DD:MM:YYYY'
+        add_months(months_to_add, date as datetime (default = now))[]:
+            returns  date add months to add as text format 'DD:MM:YYYY' and as datetime format to pass to other functions use [0]for text or [1] for datetime
 
-        add_days(days_to_add, date as datetime (default = now)):
-            returns date add days to add as text format 'DD:MM:YYYY'
+        add_days(days_to_add, date as datetime (default = now))[]:
+            returns date add days to add as text format 'DD:MM:YYYY' and as datetime format to pass to other functions use [0]for text or [1] for datetime
 
-        add_hours(hours_to_add, time as datetime (default = now)):
-            returns time add hours to add as text format 'HH:MM:SS'
+        add_hours(hours_to_add, time as datetime (default = now))[]:
+            returns time add hours to add as text format 'HH:MM:SS' and as datetime format to pass to other functions use [0]for text or [1] for datetime
 
-        add_minutes(minutes_to_add, time as datetime (default = now)):
-            returns time add minutes to add as text format 'HH:MM:SS'
+        add_minutes(minutes_to_add, time as datetime (default = now))[]:
+            returns time add minutes to add as text format 'HH:MM:SS' and as datetime format to pass to other functions use [0]for text or [1] for datetime
 
-        add_seconds(seconds_to_add, time as datetime (default = now)):
-            returns time add seconds to add as text format 'HH:MM:SS'
+        add_seconds(seconds_to_add, time as datetime (default = now))[]:
+            returns time add seconds to add as text format 'HH:MM:SS' and as datetime format to pass to other functions use [0]for text or [1] for datetime
 </details>
